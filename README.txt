@@ -46,3 +46,21 @@ The misplaced tile heuristic runs, followed by the manhattan heuristic
 The moves taken are listed and the statistics follow them as:
 current queue size, max queue size, path cost to goal, and number of nodes expanded
 
+/////////////////////////////////////////////////////////////////////////
+Project requirements:
+
+a) Implement two heuristic functions based on “Manhattan Distance” and “Misplaced Numbered Tiles” to 
+calculate the distance between any state and the goal state for 15- puzzle (1 pt) (Please explain the 
+implementation details in your report)
+
+b) Given any initial random state of a 15-puzzle problem, please calculate whether the goal state is 
+reachable from this initial random state for 15-puzzle (1 pt). (Please explain the implementation of 
+your algorithm in your report)
+
+c) For A* search, given a specific initial state, please compare the running-time performance (or # of steps) 
+of using “Manhattan Distance” and “Misplaced Numbered Tiles”. (1 pt) (Explain the results and how you implement 
+this part in your report)
+
+d) Capture a screenshot showing the running results of your 15-puzzle program. Report the initial state, the 
+goal state, and the movement of the tiles (1 pt). You do not need to design a GUI interface for your 15-puzzle.
+
