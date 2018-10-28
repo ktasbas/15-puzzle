@@ -1,0 +1,1 @@
+Main-Class: aima.gui.swing.applications.search.games.FifteenPuzzleApp

@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FifteenPuzzleApp",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "aima.gui.swing.applications.search.games.FifteenPuzzleApp",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FifteenPuzzleDemo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "aima.demo.search.FifteenPuzzleDemo",
+            "args": "",
+            "projectName": "aima-core"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EightPuzzleDemo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "aima.gui.demo.search.EightPuzzleDemo",
+            "args": ""
+        }
+    ]
+}
