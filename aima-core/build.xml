@@ -42,7 +42,7 @@
 			debug="${aima-core.compiler.debug}"
 			debuglevel="${aima-core.compiler.debuglevel}"
 			source="${aima-core.compiler.source}"
-		    target="${aima-core.compiler.target}"
+		    	target="${aima-core.compiler.target}"
 		/>
 		<!-->
 		<javac srcdir="${aima-core.dir.src}/test" 
@@ -75,6 +75,7 @@
 		<javadoc destdir="${aima-core.dir.build.doc}/javadoc" 
 			packagenames="aima.*"
 			sourcepathref="aima-core.javadoc.src"
+			additionalparam="-Xdoclint:none"
 		    overview="${aima-core.dir.src}/main/javadoc/overview.html" />
 	</target>
 
