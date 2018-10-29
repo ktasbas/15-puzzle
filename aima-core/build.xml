@@ -36,7 +36,7 @@
 	</target>
 
 	<target name="aima-core.compile-all" depends="aima-core.makedirs">
-		<javac srcdir="${aima-core.dir.src}/main" 
+		<javac srcdir="${aima-core.dir.src}/main/java" 
 			destdir="${aima-core.dir.build.bin}/main" 
 			classpathref="aima-core.classpath"
 			debug="${aima-core.compiler.debug}"
@@ -82,7 +82,7 @@
 	-->
 
 	<!-- <target name="aima-core.release" depends="aima-core.clean,aima-core.makedirs,aima-core.test-all"> -->
-	<target name="aima-core.release" depends="aima-core.clean,aima-core.makedirs">
+	<target name="aima-core.release" depends="aima-core.clean,aima-core.compile-all">
 		<jar destfile="${aima-core.dir.build.release}/aima-core.jar">
 			<manifest>
 		    	<attribute name="Implementation-Title" value="AIMA-CORE" />
@@ -94,6 +94,6 @@
 		</jar>
 	</target>
 		
-	<target name="aima-core.all" depends="aima-core.release,aima-core.makedocs">
+	<target name="aima-core.all" depends="aima-core.release">
 	</target>
 </project>
