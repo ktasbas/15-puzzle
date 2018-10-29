@@ -1,10 +1,24 @@
-@author M. Kaan Tasbas | mktasbas@gmail.com
+M. Kaan Tasbas | mktasbas@gmail.com
+https://github.com/ktasbas/15-puzzle
+
+This project is heavily based on the open-source algorithms from the textbook
+"Artificial Intelligence - A Modern Approach" by Russel and Norvig. Their original
+code can be found at https://github.com/aimacode/aima-java.
 
 /////////////////////////////////////////////////////////////////////////
-All files compiled with Oracle JDK11 
-on Linux kernel 4.15.0-36-generic Ubuntu 16.04
+Originally developed with Oracle JDK11 
+on Linux Ubuntu 16.04 kernel 4.15.0-36-generic
+
+Also tested on FAU servers at portal.eng.fau.edu with JDK8
+
+/////////////////////////////////////////////////////////////////////////
+To run on FAU servers double click ./release/fifteen-gui-8.jar
+This file is prepared specifically for JDK8 on these servers.
 
 
+
+
+OLD INSTRUCTIONS (tested on Ubuntu):
 /////////////////////////////////////////////////////////////////////////
 For the GUI:
 
